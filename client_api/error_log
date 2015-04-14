@@ -1,0 +1,204 @@
+[22-Dec-2014 05:51:53 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '=' in /home/ridwyid1/public_html/project/spota/client_api/profil.php on line 100
+[22-Dec-2014 05:54:38 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '=' in /home/ridwyid1/public_html/project/spota/client_api/profil.php on line 100
+[22-Dec-2014 05:55:39 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '=' in /home/ridwyid1/public_html/project/spota/client_api/profil.php on line 100
+[22-Dec-2014 05:56:39 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '=' in /home/ridwyid1/public_html/project/spota/client_api/profil.php on line 100
+[22-Dec-2014 05:56:50 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '=' in /home/ridwyid1/public_html/project/spota/client_api/profil.php on line 100
+[22-Dec-2014 05:57:05 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '=' in /home/ridwyid1/public_html/project/spota/client_api/profil.php on line 100
+[22-Dec-2014 05:58:57 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '=' in /home/ridwyid1/public_html/project/spota/client_api/profil.php on line 100
+[22-Dec-2014 06:02:23 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '=' in /home/ridwyid1/public_html/project/spota/client_api/profil.php on line 100
+[22-Dec-2014 06:03:26 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '=' in /home/ridwyid1/public_html/project/spota/client_api/profil.php on line 100
+[22-Dec-2014 06:07:00 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '=' in /home/ridwyid1/public_html/project/spota/client_api/profil.php on line 100
+[22-Dec-2014 06:07:25 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '=' in /home/ridwyid1/public_html/project/spota/client_api/profil.php on line 100
+[22-Dec-2014 06:07:33 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '=' in /home/ridwyid1/public_html/project/spota/client_api/profil.php on line 100
+[22-Dec-2014 06:08:06 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '=' in /home/ridwyid1/public_html/project/spota/client_api/profil.php on line 100
+[22-Dec-2014 06:08:19 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '=' in /home/ridwyid1/public_html/project/spota/client_api/profil.php on line 100
+[25-Dec-2014 12:41:43 Asia/Jakarta] PHP Parse error:  syntax error, unexpected T_CASE in /home/ridwyid1/public_html/project/spota/client_api/profil.php on line 156
+[25-Dec-2014 12:41:53 Asia/Jakarta] PHP Parse error:  syntax error, unexpected T_CASE in /home/ridwyid1/public_html/project/spota/client_api/profil.php on line 156
+[25-Dec-2014 13:24:16 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ')' in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 249
+[25-Dec-2014 13:24:26 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ')' in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 249
+[25-Dec-2014 13:24:40 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ')' in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 249
+[25-Dec-2014 13:24:58 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ')' in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 249
+[25-Dec-2014 13:25:49 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ')' in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 249
+[25-Dec-2014 13:40:29 Asia/Jakarta] PHP Parse error:  syntax error, unexpected T_IF in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 228
+[25-Dec-2014 13:41:02 Asia/Jakarta] PHP Parse error:  syntax error, unexpected T_IF in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 228
+[25-Dec-2014 13:45:36 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:37 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:37 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:38 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:39 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:39 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:40 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:41 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:42 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:43 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:43 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:44 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:45 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:45 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:46 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:46 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:47 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:48 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:49 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:50 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:51 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:51 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:52 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:53 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:55 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:55 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:56 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:57 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:57 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:58 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:59 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:45:59 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:46:00 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:46:01 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:46:02 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:46:02 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:46:03 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:46:04 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:46:04 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:46:05 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:46:06 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:46:06 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:46:07 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:46:07 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:46:08 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:46:09 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:46:09 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:46:10 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:46:10 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:46:11 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:46:12 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:46:12 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:46:13 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:46:14 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:46:14 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:46:15 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:46:15 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:46:16 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[25-Dec-2014 13:46:17 Asia/Jakarta] PHP Fatal error:  Cannot access private property dB::$dbRows in /home/ridwyid1/public_html/project/spota/client_api/praoutline.php on line 250
+[02-Jan-2015 03:25:00 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '.' in /home/ridwyid1/public_html/project/spota/client_api/login.php on line 42
+[12-Feb-2015 02:39:34 America/New_York] PHP Warning:  fopen(/home/k1383423/public_html/spota/img/mhs_1239012571.jpg): failed to open stream: No such file or directory in /home/k1383423/public_html/client_api/mahasiswa.php on line 142
+[12-Feb-2015 02:39:34 America/New_York] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/k1383423/public_html/client_api/mahasiswa.php on line 144
+[12-Feb-2015 02:39:34 America/New_York] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/k1383423/public_html/client_api/mahasiswa.php on line 145
+[12-Feb-2015 02:40:41 America/New_York] PHP Warning:  fopen(/home/k1383423/public_html/spota/img/mhs_445915467.jpg): failed to open stream: No such file or directory in /home/k1383423/public_html/client_api/mahasiswa.php on line 142
+[12-Feb-2015 02:40:41 America/New_York] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/k1383423/public_html/client_api/mahasiswa.php on line 144
+[12-Feb-2015 02:40:41 America/New_York] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/k1383423/public_html/client_api/mahasiswa.php on line 145
+[12-Feb-2015 02:41:36 America/New_York] PHP Warning:  fopen(/home/k1383423/public_html/spota/img/mhs_1006395958.jpg): failed to open stream: No such file or directory in /home/k1383423/public_html/client_api/mahasiswa.php on line 142
+[12-Feb-2015 02:41:36 America/New_York] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/k1383423/public_html/client_api/mahasiswa.php on line 144
+[12-Feb-2015 02:41:36 America/New_York] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/k1383423/public_html/client_api/mahasiswa.php on line 145
+[12-Feb-2015 02:42:11 America/New_York] PHP Warning:  fopen(/home/k1383423/public_html/spota/img/mhs_1290429808.jpg): failed to open stream: No such file or directory in /home/k1383423/public_html/client_api/mahasiswa.php on line 142
+[12-Feb-2015 02:42:11 America/New_York] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/k1383423/public_html/client_api/mahasiswa.php on line 144
+[12-Feb-2015 02:42:11 America/New_York] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/k1383423/public_html/client_api/mahasiswa.php on line 145
+[12-Feb-2015 02:44:49 America/New_York] PHP Warning:  fopen(/home/k1383423/public_html/spota/img/mhs_1277530964.jpg): failed to open stream: No such file or directory in /home/k1383423/public_html/client_api/mahasiswa.php on line 142
+[12-Feb-2015 02:44:49 America/New_York] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/k1383423/public_html/client_api/mahasiswa.php on line 144
+[12-Feb-2015 02:44:49 America/New_York] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/k1383423/public_html/client_api/mahasiswa.php on line 145
+[12-Feb-2015 02:46:49 America/New_York] PHP Warning:  fopen(/home/k1383423/public_html/spota/img/mhs_714913065.jpg): failed to open stream: No such file or directory in /home/k1383423/public_html/client_api/mahasiswa.php on line 142
+[12-Feb-2015 02:46:49 America/New_York] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/k1383423/public_html/client_api/mahasiswa.php on line 144
+[12-Feb-2015 02:46:49 America/New_York] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/k1383423/public_html/client_api/mahasiswa.php on line 145
+[12-Feb-2015 02:57:14 America/New_York] PHP Warning:  fopen(/home/k1383423/public_html/spota/img/dosen_305319378.jpg): failed to open stream: No such file or directory in /home/k1383423/public_html/client_api/dosen.php on line 173
+[12-Feb-2015 02:57:14 America/New_York] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/k1383423/public_html/client_api/dosen.php on line 175
+[12-Feb-2015 02:57:14 America/New_York] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/k1383423/public_html/client_api/dosen.php on line 176
+[12-Feb-2015 03:20:52 America/New_York] PHP Warning:  fopen(/home/k1383423/public_htmlimg/dosen_679099939.jpg): failed to open stream: No such file or directory in /home/k1383423/public_html/client_api/dosen.php on line 173
+[12-Feb-2015 03:20:52 America/New_York] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/k1383423/public_html/client_api/dosen.php on line 175
+[12-Feb-2015 03:20:52 America/New_York] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/k1383423/public_html/client_api/dosen.php on line 176
+[12-Feb-2015 03:21:19 America/New_York] PHP Warning:  fopen(/home/k1383423/public_htmlimg/dosen_557602901.jpg): failed to open stream: No such file or directory in /home/k1383423/public_html/client_api/dosen.php on line 173
+[12-Feb-2015 03:21:19 America/New_York] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/k1383423/public_html/client_api/dosen.php on line 175
+[12-Feb-2015 03:21:19 America/New_York] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/k1383423/public_html/client_api/dosen.php on line 176
+[21-Mar-2015 18:44:49 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[21-Mar-2015 18:45:06 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[21-Mar-2015 19:16:09 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[21-Mar-2015 19:16:10 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[21-Mar-2015 19:16:20 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[21-Mar-2015 21:07:31 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[21-Mar-2015 21:07:42 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[21-Mar-2015 21:07:48 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[21-Mar-2015 21:08:28 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 00:10:02 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 00:10:17 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 00:10:32 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 00:10:47 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 04:09:18 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 04:09:34 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 04:09:51 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 04:28:40 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 04:29:03 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 04:29:03 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 04:29:13 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 05:51:44 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 05:51:58 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 06:28:44 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 06:31:48 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 06:31:49 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 06:32:06 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 06:33:12 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 06:33:47 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 06:42:07 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 06:42:20 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 07:04:09 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 07:08:59 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 08:23:03 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 08:23:22 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 08:39:45 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 08:52:16 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 09:12:15 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 09:13:28 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 09:13:32 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 09:13:42 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 09:13:50 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 09:14:57 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 09:15:12 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 09:19:31 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 09:20:20 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 09:21:31 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 09:21:31 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 09:29:30 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 09:29:45 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 09:30:11 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 10:57:05 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 10:57:22 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 10:57:42 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 10:58:10 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 10:58:18 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 10:58:35 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 10:59:03 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 12:56:34 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 12:56:48 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 12:56:52 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 13:21:36 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 13:21:43 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 13:42:25 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 16:50:51 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 16:51:02 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 16:51:19 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 16:51:29 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 16:51:36 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 16:51:39 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 16:51:55 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 16:52:26 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[22-Mar-2015 17:10:47 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/k1383423/public_html/client_api/praoutline.php on line 454
+[31-Mar-2015 11:03:22 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/k1383423/public_html/client_api/mahasiswa.php on line 2
+[31-Mar-2015 11:03:22 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/k1383423/public_html/client_api/mahasiswa.php on line 2
+[31-Mar-2015 11:03:22 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/k1383423/public_html/client_api/jadwal.php on line 2
+[31-Mar-2015 11:03:22 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/k1383423/public_html/client_api/jadwal.php on line 2
+[31-Mar-2015 11:03:23 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/k1383423/public_html/client_api/logout.php on line 2
+[31-Mar-2015 11:03:23 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/k1383423/public_html/client_api/logout.php on line 2
+[31-Mar-2015 11:03:23 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/k1383423/public_html/client_api/pemberitahuan.php on line 2
+[31-Mar-2015 11:03:23 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/k1383423/public_html/client_api/pemberitahuan.php on line 2
+[31-Mar-2015 11:03:23 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/k1383423/public_html/client_api/back_up_profil.php on line 2
+[31-Mar-2015 11:03:23 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/k1383423/public_html/client_api/back_up_profil.php on line 2
+[31-Mar-2015 11:03:23 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/k1383423/public_html/client_api/statistik.php on line 2
+[31-Mar-2015 11:03:23 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/k1383423/public_html/client_api/statistik.php on line 2
+[31-Mar-2015 11:03:23 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/k1383423/public_html/client_api/profil.php on line 2
+[31-Mar-2015 11:03:23 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/k1383423/public_html/client_api/profil.php on line 2
+[31-Mar-2015 11:03:23 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/k1383423/public_html/client_api/pengumuman.php on line 2
+[31-Mar-2015 11:03:23 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/k1383423/public_html/client_api/pengumuman.php on line 2
+[31-Mar-2015 11:03:23 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/k1383423/public_html/client_api/login.php on line 2
+[31-Mar-2015 11:03:23 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/k1383423/public_html/client_api/login.php on line 2
+[31-Mar-2015 11:03:23 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/k1383423/public_html/client_api/dosen.php on line 2
+[31-Mar-2015 11:03:23 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/k1383423/public_html/client_api/dosen.php on line 2
+[31-Mar-2015 11:03:23 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/k1383423/public_html/client_api/praoutline.php on line 2
+[31-Mar-2015 11:03:23 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/k1383423/public_html/client_api/praoutline.php on line 2

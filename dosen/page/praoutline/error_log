@@ -1,0 +1,22 @@
+[31-Mar-2015 11:03:25 America/New_York] PHP Fatal error:  Class 'dB' not found in /home/k1383423/public_html/dosen/page/praoutline/kep.draft.praoutline.php on line 1
+[31-Mar-2015 11:03:25 America/New_York] PHP Fatal error:  Class 'dB' not found in /home/k1383423/public_html/dosen/page/praoutline/myreview.php on line 1
+[31-Mar-2015 11:03:25 America/New_York] PHP Fatal error:  Call to undefined function tanggalIndo() in /home/k1383423/public_html/dosen/page/praoutline/pemberitahuan.php on line 14
+[31-Mar-2015 11:03:25 America/New_York] PHP Fatal error:  Class 'dB' not found in /home/k1383423/public_html/dosen/page/praoutline/statistik.php on line 1
+[31-Mar-2015 11:03:25 America/New_York] PHP Fatal error:  Call to undefined function tanggalIndo() in /home/k1383423/public_html/dosen/page/praoutline/daftar-praoutline.php on line 14
+[31-Mar-2015 11:03:25 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/k1383423/public_html/dosen/page/praoutline/list.judulditerima.php on line 2
+[31-Mar-2015 11:03:25 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/k1383423/public_html/dosen/page/praoutline/list.judulditerima.php on line 2
+[31-Mar-2015 11:03:26 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/k1383423/public_html/dosen/page/praoutline/list.judul.php on line 2
+[31-Mar-2015 11:03:26 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/k1383423/public_html/dosen/page/praoutline/list.judul.php on line 2
+[31-Mar-2015 11:03:26 America/New_York] PHP Fatal error:  Class 'dB' not found in /home/k1383423/public_html/dosen/page/praoutline/_navbar.php on line 1
+[31-Mar-2015 11:03:26 America/New_York] PHP Fatal error:  Call to undefined function tanggalIndo() in /home/k1383423/public_html/dosen/page/praoutline/keputusan.php on line 14
+[31-Mar-2015 11:03:26 America/New_York] PHP Fatal error:  Call to undefined function unset_session() in /home/k1383423/public_html/dosen/page/praoutline/cari.php on line 2
+[31-Mar-2015 11:03:26 America/New_York] PHP Fatal error:  Class 'dB' not found in /home/k1383423/public_html/dosen/page/praoutline/judul-terbaru.php on line 1
+[31-Mar-2015 11:03:26 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/k1383423/public_html/dosen/page/praoutline/list.myreview.php on line 2
+[31-Mar-2015 11:03:26 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/k1383423/public_html/dosen/page/praoutline/list.myreview.php on line 2
+[31-Mar-2015 11:03:26 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/k1383423/public_html/dosen/page/praoutline/list.statistikdraft.php on line 2
+[31-Mar-2015 11:03:26 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/k1383423/public_html/dosen/page/praoutline/list.statistikdraft.php on line 2
+[31-Mar-2015 11:03:26 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/k1383423/public_html/dosen/page/praoutline/act.praoutline.php on line 2
+[31-Mar-2015 11:03:26 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/k1383423/public_html/dosen/page/praoutline/act.praoutline.php on line 2
+[31-Mar-2015 11:03:26 America/New_York] PHP Fatal error:  Class 'dB' not found in /home/k1383423/public_html/dosen/page/praoutline/review.php on line 1
+[31-Mar-2015 11:03:26 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/k1383423/public_html/dosen/page/praoutline/list.kep.draft.praoutline.php on line 2
+[31-Mar-2015 11:03:26 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/k1383423/public_html/dosen/page/praoutline/list.kep.draft.praoutline.php on line 2

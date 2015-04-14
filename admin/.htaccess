@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteRule ^dashboard/edit-data-dosen/(.*)$ dashboard.php?page=data&menu=data-dosen&act=edit&id=$1 [L]
+
+</IfModule>
+

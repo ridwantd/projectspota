@@ -1,0 +1,12 @@
+[31-Mar-2015 11:03:27 America/New_York] PHP Fatal error:  Class 'dB' not found in /home/k1383423/public_html/mahasiswa/page/outline/new.php on line 21
+[31-Mar-2015 11:03:27 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/k1383423/public_html/mahasiswa/page/outline/!act.praoutline.php on line 2
+[31-Mar-2015 11:03:27 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/k1383423/public_html/mahasiswa/page/outline/!act.praoutline.php on line 2
+[31-Mar-2015 11:03:27 America/New_York] PHP Fatal error:  Class 'dB' not found in /home/k1383423/public_html/mahasiswa/page/outline/diskusi.php on line 21
+[31-Mar-2015 11:03:27 America/New_York] PHP Fatal error:  Call to a member function runQuery() on a non-object in /home/k1383423/public_html/mahasiswa/page/outline/jadwal.php on line 25
+[31-Mar-2015 11:03:27 America/New_York] PHP Fatal error:  Class 'dB' not found in /home/k1383423/public_html/mahasiswa/page/outline/list.php on line 23
+[31-Mar-2015 11:03:28 America/New_York] PHP Fatal error:  Call to a member function runQuery() on a non-object in /home/k1383423/public_html/mahasiswa/page/outline/jadwal_sidang.php on line 25
+[31-Mar-2015 11:03:28 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/k1383423/public_html/mahasiswa/page/outline/act.outline.php on line 2
+[31-Mar-2015 11:03:28 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/k1383423/public_html/mahasiswa/page/outline/act.outline.php on line 2
+[31-Mar-2015 11:03:28 America/New_York] PHP Fatal error:  Call to a member function runQuery() on a non-object in /home/k1383423/public_html/mahasiswa/page/outline/jadwal_outline.php on line 25
+[31-Mar-2015 11:03:28 America/New_York] PHP Fatal error:  Class 'dB' not found in /home/k1383423/public_html/mahasiswa/page/outline/review.php on line 17
+[31-Mar-2015 11:03:28 America/New_York] PHP Fatal error:  Class 'dB' not found in /home/k1383423/public_html/mahasiswa/page/outline/!review.php on line 1

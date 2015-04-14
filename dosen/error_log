@@ -1,0 +1,8 @@
+[31-Mar-2015 11:03:24 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/k1383423/public_html/dosen/dashboard.php on line 2
+[31-Mar-2015 11:03:24 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/k1383423/public_html/dosen/dashboard.php on line 2
+[31-Mar-2015 11:03:26 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/k1383423/public_html/dosen/act.auth.php on line 2
+[31-Mar-2015 11:03:26 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/k1383423/public_html/dosen/act.auth.php on line 2
+[31-Mar-2015 11:03:26 America/New_York] PHP Fatal error:  Class 'dB' not found in /home/k1383423/public_html/dosen/_navbar.php on line 1
+[31-Mar-2015 11:03:26 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/k1383423/public_html/dosen/index.php on line 2
+[31-Mar-2015 11:03:26 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/k1383423/public_html/dosen/index.php on line 2
+[31-Mar-2015 11:03:26 America/New_York] PHP Fatal error:  Class 'dB' not found in /home/k1383423/public_html/dosen/_header.php on line 2
