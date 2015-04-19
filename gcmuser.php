@@ -8,7 +8,7 @@ $db=new dB($dbsetting);
 
 $q="SELECT gcm.*,tm.nmLengkap as mhs,td.nmLengkap as dosen FROM gcm_service gcm
 LEFT JOIN tbmhs tm ON(tm.nim=gcm.iduser)
-LEFT JOIN tbdosen td ON (td.nip=gcm.iduser)";
+LEFT JOIN tbdosen td ON (td.nip=gcm.iduser) ORDER BY gcm.iduser";
 
 echo "<b>Timezone Default : </b>".date_default_timezone_get();
 echo "<hr/>";
@@ -35,5 +35,5 @@ echo "<hr/>";
 $qqq="SELECT NOW()";
 $db->runQuery($qqq);
 $xxx=$db->dbFetch();
-print_r($xxx);
+//print_r($xxx);
 echo NOW;

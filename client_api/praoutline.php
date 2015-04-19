@@ -287,6 +287,19 @@ if($_POST){
 				$jenisrev=" jenis_review='1', ";
 			}else{
 				$jenisrev=" jenis_review='0', ";
+				if($putusan!=""){
+					$kep="jenis_review='1', putusan='".$putusan."',";
+					$check="SELECT id FROM tbreview WHERE idProdi='$prodi' AND idpraoutline='$idpraoutline'
+					AND reviewer='$reviewer' AND (putusan IS NOT NULL AND putusan <> '')";
+					$db->runQuery($check);
+					if($db->dbRows()>0){
+						$response["success"] = "0";
+						$response["data"] = null;
+						$response["msg"] = "Maaf, Anda Telah Memberikan Keputusan pada Draft Praoutline ini";
+						echo json_encode($response);
+						exit;
+					}
+				}
 			}
 			$revtext=$_POST['revtext'];
 			if(ctype_digit($idpraoutline)){
