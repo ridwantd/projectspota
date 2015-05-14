@@ -40,9 +40,8 @@
 				</tr>
 			</tbody>
 		</table>
-
-
 	</div>
+
 	<div class="col-md-6">
 		<h3>Statistik Dosen</h3>
 		<?php
@@ -119,3 +118,54 @@
 		</table> -->
 	</div>
 </div>
+<?php
+if($_SESSION['login-dosen']['jenisdosen']=='K'){
+?>
+<div class="row">
+	<div class="col-md-10">
+		<hr/>
+		<h3>Statistik Keseluruhan Dosen</h3>
+		<table class="table table-striped table-bordered table-hover table-full-width" id="stat-keldosen">
+			<thead>
+				<tr>
+					<th style="width:15%;text-align:center">Nama Dosen</th>
+					<th style="width:10%;text-align:center">NIP</th>
+					<th style="width:5%;text-align:center">Sbg Pembimbing 1</th>
+					<th style="width:5%;text-align:center">Sbg Pembimbing 2</th>
+					<th style="width:5%;text-align:center">Sbg Penguji 1</th>
+					<th style="width:5%;text-align:center">Sbg Penguji 2</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td colspan="6" class="dataTables_empty">Loading data from server</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="modal fade" id="mhsmodal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					&times;
+				</button>
+				<h4 class="modal-title">Daftar Mahasiswa</h4>
+			</div>
+			<div class="modal-body">
+				<span id="datadaftar"></span>
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-default" data-dismiss="modal">
+					OK
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<?php
+}
+?>

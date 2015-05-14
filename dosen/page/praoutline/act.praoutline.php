@@ -375,6 +375,90 @@ if($_POST){
 				exit();
 			}*/
 		break;
+
+		case 'getmhs':
+			$db3=new dB($dbsetting);
+			$nip=$_POST['nip'];
+			$jenis=$_POST['jenis'];
+
+			$d="SELECT nmLengkap FROM tbdosen WHERE nip='$nip'";
+			$db3->runQuery($d);
+			if($db3->dbRows()>0){
+				$dosen=$db3->dbFetch();
+			}
+
+			switch($jenis){
+				case 'pemb1':
+					$qq="SELECT tm.nim, tm.nmLengkap, trh.judul_final, trh.semester
+					FROM tbrekaphasil trh
+			        LEFT JOIN tbdosen td ON (trh.pemb1=td.nip)
+			        LEFT JOiN tbmhs tm ON (trh.nim=tm.nim)
+					WHERE  td.nip='$nip' ORDER BY trh.semester, tm.nim";
+					$txt="Sebagai Pembimbing 1";
+				break;
+				
+				case 'pemb2':
+					$qq="SELECT tm.nim, tm.nmLengkap, trh.judul_final, trh.semester
+					FROM tbrekaphasil trh
+			        LEFT JOIN tbdosen td ON (trh.pemb2=td.nip)
+			        LEFT JOiN tbmhs tm ON (trh.nim=tm.nim)
+					WHERE  td.nip='$nip' ORDER BY trh.semester, tm.nim";
+					$txt="Sebagai Pembimbing 2";
+				break;
+				
+				case 'peng1':
+					$qq="SELECT tm.nim, tm.nmLengkap, trh.judul_final, trh.semester
+					FROM tbrekaphasil trh
+			        LEFT JOIN tbdosen td ON (trh.peng1=td.nip)
+			        LEFT JOiN tbmhs tm ON (trh.nim=tm.nim)
+					WHERE  td.nip='$nip' ORDER BY trh.semester, tm.nim";
+					$txt="Sebagai Penguji 1";
+				break;
+				
+				case 'peng2':
+					$qq="SELECT tm.nim, tm.nmLengkap, trh.judul_final, trh.semester
+					FROM tbrekaphasil trh
+			        LEFT JOIN tbdosen td ON (trh.peng2=td.nip)
+			        LEFT JOiN tbmhs tm ON (trh.nim=tm.nim)
+					WHERE td.nip='$nip' ORDER BY trh.semester, tm.nim";
+					$txt="Sebagai Penguji 2";
+				break;
+				}
+				
+			$db3->runQuery($qq);
+			echo $dosen['nmLengkap']." : ";
+			echo $txt."<br/>";
+			echo '<table class="daftamahasiswa table table-striped table-bordered table-hover">';
+			echo '<thead><tr>
+				<th style="text-align: center">NIM</th>
+				<th style="text-align: center">Nama Mahasiswa</th>
+				<th style="text-align: center">Semeseter</th>
+				<th style="text-align: center">Judul</th>
+			</tr></thead> ';
+			if($db3->dbRows()>0){
+				echo '<tbody>';
+				while($m=$db3->dbFetch()){
+					echo '<tr>
+						<td>'.$m['nim'].'</td>
+						<td>'.$m['nmLengkap'].'</td>
+						<td>'.$m['semester'].'</td>
+						<td>'.$m['judul_final'].'</td>
+					</tr> ';
+				}
+				echo "</tbody>";
+			}else{
+				echo '<tbody>';
+				echo '<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr> ';
+				echo '</tbody>';
+			}
+			echo '</table>';
+			
+		break;
 	}
 }
 }

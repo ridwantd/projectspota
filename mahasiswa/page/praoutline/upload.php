@@ -48,6 +48,15 @@ if($db->dbRows()>0){
 <?php
 }else{
 ?>
+<div class="alert alert-danger">
+	<h4 class="alert-heading">Perhatian</h4>
+	<ul>
+		<li><strong>Pastikan File Yang Anda Upload Berupa File PDF</strong></li>
+		<li><strong>Periksa Terlebih Dahulu File Draft Praoutline Yang Akan diupload</strong></li>
+		<li><strong>Jika Terdapat Kesalahan Upload Draft Praoutline Harap Menghubungi Administrator SPOTA Prodi Masing-Masing</strong></li>
+	</ul>
+	
+</div>
 <form id="upload_usulan" method="POST" enctype="multipart/form-data" action="page/praoutline/act.praoutline.php">
 	<input type="hidden" name="act" value="upload" />
 	<input type="hidden" name="nim" value="<?php echo $_SESSION['login-mhs']['nim'];?>" />

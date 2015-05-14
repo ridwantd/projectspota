@@ -77,7 +77,7 @@ if($_POST){
 					}else{
 						$msg="Profil telah disimpan.";
 
-						if($_POST['password']==""){
+						if($_POST['password']!=""){
 							$pass="password='".md5(trim($_POST['password']))."', ";
 						}else{
 							$pass="";

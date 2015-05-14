@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" href="../assets/plugins/select2/select2.css" />
 <link rel="stylesheet" href="../assets/plugins/DataTables/media/css/DT_bootstrap.css" />
 <!-- <link rel="stylesheet" href="../assets/plugins/ckeditor/contents.css"> -->
-<link href="../assets/plugins/bootstrap-modal/css/bootstrap-modal-bs3patch.css" rel="stylesheet" type="text/css"/>
+<!-- <link href="../assets/plugins/bootstrap-modal/css/bootstrap-modal-bs3patch.css" rel="stylesheet" type="text/css"/> -->
 <link href="../assets/plugins/bootstrap-modal/css/bootstrap-modal.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="../assets/plugins/gritter/css/jquery.gritter.css">
 <link rel="stylesheet" href="../assets/plugins/jQuery-Tags-Input/jquery.tagsinput.css">
@@ -168,7 +168,41 @@
         $('#stat-draft-praoutline_wrapper .dataTables_length select').addClass("m-wrap small");
         $('#stat-draft-praoutline_wrapper .dataTables_length select').select2();
 
+        $('#stat-keldosen').dataTable({
+			"iDisplayLength": 10,
+			"aLengthMenu": [
+                [10, 15, 20, 50, 100, -1],
+                [10, 15, 20, 50, 100, "All"] // change per page values here
+            ],
+			"bProcessing": true,
+			"bServerSide": true,
+			"bSort": false,
+			"sAjaxSource": "page/praoutline/list.statistikdosen.php",
+			"oLanguage": {
+	            "sLengthMenu": "Menampilkan _MENU_ Data per halaman",
+	            "sZeroRecords": "Maaf, Data tidak ada",
+	            "sInfo": "Menampilkan _START_ s/d _END_ dari _TOTAL_ data",
+	            "sInfoEmpty": "Menampilakan 0 s/d 0 dari 0 data",
+	            "sSearch": "",
+	            "sInfoFiltered": "",
+	            "oPaginate": {
+                    "sPrevious": "",
+                    "sNext": ""
+                }
+	        },
+	        "aoColumns": [ 
+                {"sClass": "left"},
+                {"sClass": "left"},
+                {"sClass": "center"},
+                {"sClass": "center"},
+                {"sClass": "center"},
+                {"sClass": "center"}
+	        ]
+		});
 
+		$('#stat-keldosen_wrapper .dataTables_filter input').addClass("form-control input-sm").attr("placeholder", "Search");
+        $('#stat-keldosen_wrapper .dataTables_length select').addClass("m-wrap small");
+        $('#stat-keldosen_wrapper .dataTables_length select').select2();
 
 		$("#cari").validate({
 			errorPlacement: function(error, element) {
@@ -310,5 +344,171 @@
 	function viewDataStat(smt){
 		location.href="dashboard.php?page=praoutline&menu=statistik&smt="+smt;
 	}
+
+	function mhsPemb1(nip){
+		$.ajax({
+			url:'page/praoutline/act.praoutline.php',
+			dataType:'html',
+			type:'POST',
+			data:"act=getmhs&jenis=pemb1&nip="+nip,
+			cache:false,
+			beforeSend:function(){
+				$("#loading").show();
+			},
+			success:function(html){
+				$("#datadaftar").html(html);
+				$('.daftamahasiswa').dataTable({
+					"iDisplayLength": 5,
+					"aLengthMenu": [
+		                [5,10, 15, 20, 50, 100, -1],
+		                [5,10, 15, 20, 50, 100, "All"] // change per page values here
+		            ],
+					"bProcessing": true,
+					"bSort": false,
+					"oLanguage": {
+			            "sLengthMenu": "Menampilkan _MENU_ Data per halaman",
+			            "sZeroRecords": "Maaf, Data tidak ada",
+			            "sInfo": "Menampilkan _START_ s/d _END_ dari _TOTAL_ data",
+			            "sInfoEmpty": "Menampilakan 0 s/d 0 dari 0 data",
+			            "sSearch": "",
+			            "sInfoFiltered": "",
+			            "oPaginate": {
+		                    "sPrevious": "",
+		                    "sNext": ""
+		                }
+			        }
+				});
+			    $('#daftamahasiswa_wrapper .dataTables_filter input').addClass("form-control input-sm").attr("placeholder", "Search");
+		        $('#daftamahasiswa_wrapper .dataTables_length select').addClass("m-wrap small");
+		        $('#daftamahasiswa_wrapper .dataTables_length select').select2();
+
+				$("#mhsmodal").modal('show');
+			}
+		});
+	}
+
+	function mhsPemb2(nip){
+		$.ajax({
+			url:'page/praoutline/act.praoutline.php',
+			dataType:'html',
+			type:'POST',
+			data:"act=getmhs&jenis=pemb2&nip="+nip,
+			cache:false,
+			beforeSend:function(){
+				$("#loading").show();
+			},
+			success:function(html){
+				$("#datadaftar").html(html);
+				$('.daftamahasiswa').dataTable({
+					"iDisplayLength": 5,
+					"aLengthMenu": [
+		                [5,10, 15, 20, 50, 100, -1],
+		                [5,10, 15, 20, 50, 100, "All"] // change per page values here
+		            ],
+					"bProcessing": true,
+					"bSort": false,
+					"oLanguage": {
+			            "sLengthMenu": "Menampilkan _MENU_ Data per halaman",
+			            "sZeroRecords": "Maaf, Data tidak ada",
+			            "sInfo": "Menampilkan _START_ s/d _END_ dari _TOTAL_ data",
+			            "sInfoEmpty": "Menampilakan 0 s/d 0 dari 0 data",
+			            "sSearch": "",
+			            "sInfoFiltered": "",
+			            "oPaginate": {
+		                    "sPrevious": "",
+		                    "sNext": ""
+		                }
+			        }
+				});
+			    $('#daftamahasiswa_wrapper .dataTables_filter input').addClass("form-control input-sm").attr("placeholder", "Search");
+		        $('#daftamahasiswa_wrapper .dataTables_length select').addClass("m-wrap small");
+		        $('#daftamahasiswa_wrapper .dataTables_length select').select2();
+				$("#mhsmodal").modal('show');
+			}
+		});
+	}
+
+	function mhsPeng1(nip){
+		$.ajax({
+			url:'page/praoutline/act.praoutline.php',
+			dataType:'html',
+			type:'POST',
+			data:"act=getmhs&jenis=peng1&nip="+nip,
+			cache:false,
+			beforeSend:function(){
+				$("#loading").show();
+			},
+			success:function(html){
+				$("#datadaftar").html(html);
+				$('.daftamahasiswa').dataTable({
+					"iDisplayLength": 5,
+					"aLengthMenu": [
+		                [5,10, 15, 20, 50, 100, -1],
+		                [5,10, 15, 20, 50, 100, "All"] // change per page values here
+		            ],
+					"bProcessing": true,
+					"bSort": false,
+					"oLanguage": {
+			            "sLengthMenu": "Menampilkan _MENU_ Data per halaman",
+			            "sZeroRecords": "Maaf, Data tidak ada",
+			            "sInfo": "Menampilkan _START_ s/d _END_ dari _TOTAL_ data",
+			            "sInfoEmpty": "Menampilakan 0 s/d 0 dari 0 data",
+			            "sSearch": "",
+			            "sInfoFiltered": "",
+			            "oPaginate": {
+		                    "sPrevious": "",
+		                    "sNext": ""
+		                }
+			        }
+				});
+			    $('#daftamahasiswa_wrapper .dataTables_filter input').addClass("form-control input-sm").attr("placeholder", "Search");
+		        $('#daftamahasiswa_wrapper .dataTables_length select').addClass("m-wrap small");
+		        $('#daftamahasiswa_wrapper .dataTables_length select').select2();
+				$("#mhsmodal").modal('show');
+			}
+		});
+	}
+
+	function mhsPeng2(nip){
+		$.ajax({
+			url:'page/praoutline/act.praoutline.php',
+			dataType:'html',
+			type:'POST',
+			data:"act=getmhs&jenis=peng2&nip="+nip,
+			cache:false,
+			beforeSend:function(){
+				$("#loading").show();
+			},
+			success:function(html){
+				$("#datadaftar").html(html);
+				$('.daftamahasiswa').dataTable({
+					"iDisplayLength": 5,
+					"aLengthMenu": [
+		                [5,10, 15, 20, 50, 100, -1],
+		                [5,10, 15, 20, 50, 100, "All"] // change per page values here
+		            ],
+					"bProcessing": true,
+					"bSort": false,
+					"oLanguage": {
+			            "sLengthMenu": "Menampilkan _MENU_ Data per halaman",
+			            "sZeroRecords": "Maaf, Data tidak ada",
+			            "sInfo": "Menampilkan _START_ s/d _END_ dari _TOTAL_ data",
+			            "sInfoEmpty": "Menampilakan 0 s/d 0 dari 0 data",
+			            "sSearch": "",
+			            "sInfoFiltered": "",
+			            "oPaginate": {
+		                    "sPrevious": "",
+		                    "sNext": ""
+		                }
+			        }
+				});
+			    $('#daftamahasiswa_wrapper .dataTables_filter input').addClass("form-control input-sm").attr("placeholder", "Search");
+		        $('#daftamahasiswa_wrapper .dataTables_length select').addClass("m-wrap small");
+		        $('#daftamahasiswa_wrapper .dataTables_length select').select2();
+				$("#mhsmodal").modal('show');
+			}
+		});
+	}
+
 	
 </script>

@@ -19,6 +19,14 @@ if($_POST){
 			$newID = $data['Auto_increment'];
 			$nim=$_SESSION['login-mhs']['nim'];
 
+			//cek apakah draft sudah terupload sebelumnya
+			$check="SELECT id FROM tbpraoutline WHERE nim='$nim' AND status_usulan IN ('0','1')";
+			$db->runQuery($check);
+			if($db->dbRows()>0){
+				echo json_encode(array("result"=>false,"msg"=>"Draft Praoutline Anda Telah DiUpload."));
+				exit;
+			}
+
 			if(!isset($_FILES['berkas']) || !is_uploaded_file($_FILES['berkas']['tmp_name'])){
 				echo json_encode(array("result"=>false,"msg"=>"Pastikan File  Sudah dipilih"));
 				exit;
@@ -31,7 +39,7 @@ if($_POST){
 				$tmpname=$_FILES['berkas']['tmp_name'];
 				$ext=get_ext($namaberkas);
 
-				if(!$ext=='pdf'){
+				if($ext!='pdf'){
 					echo json_encode(array("result"=>false,"msg"=>"Hanya Mendukung file pdf"));
 						exit;
 				}
