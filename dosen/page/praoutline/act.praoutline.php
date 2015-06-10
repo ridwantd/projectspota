@@ -100,7 +100,7 @@ if($_POST){
 				}
 				
 			}else{
-				$pecah=explode(" ", $key);
+				/*$pecah=explode(" ", $key);
 				$jpecah=count($pecah);
 				if($jpecah==1){
 					if(ctype_alnum($key)){
@@ -131,6 +131,12 @@ if($_POST){
 						}
 					}
 						
+				}*/
+				if(ctype_alnum($key)){
+					$by="  MATCH (tp.judul) AGAINST ('".$key."')";
+				}else{
+					$newkey=str_replace("'", "\'", $key);
+					$by="  MATCH (tp.judul) AGAINST ('".$newkey."')";
 				}		
 			}
 			//include "result-cari.php";

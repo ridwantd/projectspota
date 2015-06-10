@@ -105,6 +105,13 @@ $lvl=$_SESSION['login-admin']['lvl'];
 						</a>
 					</li>
 				</ul>
+				<ul class="sub-menu">
+					<li <?php echo ($_GET['page']=="praoutline" AND $_GET['menu']=="statistik")?'class="active open"':'';?>>
+						<a href="?page=praoutline&menu=statistik">
+							<span class="title"> Statistik </span>
+						</a>
+					</li>
+				</ul>
 			</li>
 			<li <?php echo ($_GET['page']=="pengumuman")?'class="active open"':'';?>>
 				<a href="javascript:void(0)">

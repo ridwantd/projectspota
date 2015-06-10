@@ -35,6 +35,10 @@ switch ($_GET['menu']) {
 	case 'pemberitahuan':
 		include "pemberitahuan.php";
 	break;
+
+	case 'statistik':
+		include "statistik.php";
+	break;
 	
 	default:
 		echo "<script>location.href='".ADMIN_PAGE."dashboard.php'</script>";

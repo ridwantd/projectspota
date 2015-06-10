@@ -107,7 +107,7 @@ if($db->dbRows()>0){
 			<?php echo $stat['deskripsi'];?>
 			<div class="row">
 				<div class="col-sm-8">
-					<p>Oleh <?php echo $stat['nama']." (".$stat['nim']."), pada tanggal ".tanggalIndo($stat['tgl_upload'],'j F Y')." ". $statusPraoutline;?> - <a class="btn btn-xs btn-bricky" href="<?php echo DOMAIN_UTAMA."/download.php?doc_id=".$stat['id'];?>"><i class="fa fa-trash-o"></i>Download File</a></p>
+					<p>Oleh <?php echo $stat['nama']." (".$stat['nim']."), pada tanggal ".tanggalIndo($stat['tgl_upload'],'j F Y')." ". $statusPraoutline;?> - <a class="btn btn-xs btn-bricky" href="<?php echo DOMAIN_UTAMA."/download.php?doc_id=".$stat['id'];?>"><i class="fa fa-trash-o"></i>Download File</a> - <a target="_blank" href="<?php echo DOMAIN_UTAMA."/cetak.php?rev_id=".$stat['id'];?>" class="btn btn-xs btn-default" title="">Cetak Isi Review</a></p>
 				</div>
 				<div class="col-sm-4 text-right">
 					<p>Jumlah Review : <span class="badge badge-info"><?php echo $stat['jlhreview'];?></span> | Setuju : <span class="badge badge-success"><?php echo $stat['setuju'];?></span> | Tidak Setuju : <span class="badge badge-danger"><?php echo $stat['tdk_setuju'];?></span></p>
