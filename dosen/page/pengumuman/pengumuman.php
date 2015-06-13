@@ -90,7 +90,7 @@ if(!isset($_GET['lihat'])){
 	</div>
 	<?php
 	if(ctype_digit($idpengumuman)){
-		$p="SELECT tp.*, (SELECT count(idkonten) FROM tmp_notif WHERE idkonten='$idpengumuman' AND iduser='".$_SESSION['login-dosen']['id']."' AND typeuser='D') as found FROM tbpengumuman tp WHERE tp.id='$idpengumuman' AND tp.idProdi='".$_SESSION['login-dosen']['prodi']."' AND tujuan IN ('A','D') LIMIT 1";
+		$p="SELECT tp.*, (SELECT count(idkonten) FROM tmp_notif WHERE idkonten='$idpengumuman' AND iduser='".$_SESSION['login-dosen']['id']."' AND typeuser='D' AND jenis='P') as found FROM tbpengumuman tp WHERE tp.id='$idpengumuman' AND tp.idProdi='".$_SESSION['login-dosen']['prodi']."' AND tujuan IN ('A','D') LIMIT 1";
 		//echo $p;
 		$db->runQuery($p);
 		if($db->dbRows()>0){
